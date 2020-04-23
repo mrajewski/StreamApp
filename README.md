@@ -29,4 +29,4 @@ $ cd streams\api\
 $ npm install
 $ npm start
 ```
-*Notice that you will have to open two separate terminal windows in order to this properly and run the above from main catalogue*
+*Notice that you will have to open two separate terminal windows in order to this properly. Also make sure that you are running the above from main catalogue*
