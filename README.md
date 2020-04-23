@@ -8,7 +8,7 @@ This is simple stream application basing on Twitch idea
 	
 ## Technologies
 Project is created with:
-* React(CRA)
+* React (CRA)
 * Redux and Redux Thunk
 * AJAX
 * json-server
@@ -22,10 +22,11 @@ $ npm install
 $ npm start
 ```
 
-And also excatly same steps for our json database: 
+And also exactly same steps for our json database: 
 
 ```
 $ cd streams\api\
 $ npm install
 $ npm start
 ```
+*Notice that you will have to open two separate terminal windows in order to this properly and run the above from main catalogue*
