@@ -1,8 +1,8 @@
 {
   "streams": [
     {
-      "title": "dsadas",
-      "description": "dasdas",
+      "title": "Stream nr 1",
+      "description": "nothing special",
       "id": 1
     },
     {
@@ -14,6 +14,24 @@
       "title": "Other stream",
       "description": "Here's some stream",
       "id": 3
+    },
+    {
+      "title": "Stream with userId",
+      "description": "I created this stream",
+      "userId": "103078148573956463713",
+      "id": 4
+    },
+    {
+      "title": "Unexpected behavior",
+      "description": "NO that",
+      "userId": "103078148573956463713",
+      "id": 5
+    },
+    {
+      "title": "Push here",
+      "description": "You should not see this !!!",
+      "userId": "103078148573956463713",
+      "id": 6
     }
   ]
 }
