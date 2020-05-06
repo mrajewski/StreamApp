@@ -8,19 +8,15 @@ class StreamEdit extends React.Component{
         this.props.fetchStream(this.props.match.params.id)
     }
 
-    renderTitle() {
-        if (this.props.stream) {
-            return <div>{this.props.stream.title}</div>
-        } else {
-            return <div>StreamEdit</div>
-        }
-    }
+
 
     render() {
-        console.log(this.props);
-        return (
-            <div>{this.renderTitle()}</div>
-        )
+        if (!this.props.stream) {
+            return <div>Loading...</div>
+        }
+
+        return <div>{this.props.stream.title}</div>
+
     }
 }
 
