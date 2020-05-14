@@ -16,22 +16,16 @@
       "id": 3
     },
     {
-      "title": "Stream with userId",
-      "description": "I created this stream",
+      "title": "Nowy",
+      "description": "hello",
       "userId": "103078148573956463713",
-      "id": 4
+      "id": 7
     },
     {
-      "title": "Unexpected behavior",
-      "description": "NO that",
+      "title": "New Stream ",
+      "description": "this is news stream",
       "userId": "103078148573956463713",
-      "id": 5
-    },
-    {
-      "title": "Push here",
-      "description": "You should not see this !!! NEW nEW",
-      "userId": "103078148573956463713",
-      "id": 6
+      "id": 8
     }
   ]
 }

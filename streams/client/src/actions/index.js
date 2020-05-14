@@ -57,7 +57,10 @@ export const editStream = (id, formValues) => async dispatch => {
 export const deleteStream = id => async dispatch => {
     await streams.delete(`/streams/${id}`);
 
-    dispatch({type: DELETE_STREAM, payload: id })
+    dispatch({type: DELETE_STREAM, payload: id });
+
+    // Programmatic navigation to back to the root route
+    history.push('/')
 };
 
 
