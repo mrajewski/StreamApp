@@ -15,6 +15,7 @@ Project is created with:
 * Redux and Redux Thunk
 * AJAX
 * json-server
+* Google Auth
 	
 ## Setup
 To run this project, install it locally using npm:
